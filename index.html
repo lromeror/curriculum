@@ -1,11 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Curriculum web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="#about">Acerca de</a></li>
+                <li class="nav-item"><a href="#service">Service</a></li>
+                <li class="nav-item"><a href="#proyect">Proyecto</a></li>
+                <li class="nav-item"><a href="#tools">Programming & Language</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h3>Hi, Bienvenido</h3>
+            <h1>Luis F. Romero</h1>
+            <p>DESARROLLADOR WEB Y ANALISTA DE DATOS JR</p>
+            <button>Contactarme</button>
+        </div>
+        <div class="hero-image">
+            <img src="imgProfile.jpeg" alt="Anderson Coper">
+        </div>
+    </section>
+    <section class="skills">
+        <div class="skills-content">
+            <h2>ACERCA DE MI</h2>
+            <h3>DESIGNER & DEVELOPER</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet. Dolore magna aliquam erat volutpat.</p>
+            <p>Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam
+                nonummy nibh euismod tincidunt ut laoreet.</p>
+        </div>
+
+        <div class="skills-bars">
+            <h3 class="skills-title">Skills</h3> <!-- Nuevo título de Skills -->
+            <div class="skill">
+                <p>Web Design <span>95%</span></p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Mobile Apps <span>80%</span></p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>SEO Stuffs <span>70%</span></p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>HTML5 & CSS3 <span>90%</span></p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tools" class="tools">
+        <h1>PROGRAMMING LANGUAGES & TOOLS</h1>
+        <div class="tools-grid">
+            <img src="logos/python.png"="HTML">
+            <img src="logos/html.png" alt="CSS" style="width: 100px; height: 89px;">
+            <img src="logos/css.png" style="width: 70px; height: 90px;" alt="Css">
+            <img src="logos/js.png" style="width: 80px; height: 85px;" alt="jQuery">
+            <img src="logos/react.png" style="width: 80px; height: 95px;" alt="React">
+            <img src="logos/node.png" style="width: 100px; height: 100px;" alt="Less">
+            <img src="logos/plotly.png" style="width: 75px; height: 98px; border-radius: 8px;" alt="Bootstrap">
+            <img src="logos/matplot.png" alt="WordPress" style="width: 100px; height: 100px;">
+            <img src="logos/numpy.png" alt="WordPress" style="width: 100px; height: 100px;">
+            <img src="logos/java.png" alt="Grunt" style="width: 65px; height: 100px;">
+            <img src="logos/C_Logo.png" alt="Gulp" style="width: 85px; height: 95px;">
+            <img src="logos/cnumber.png" alt="C#" style="width: 85px; height: 95px;">
+            <img src="logos/mysql.png" alt="sql" style="width: 110px; height: 90px;">
+            <img src="logos/MicrosoftAzure.png" alt="MicrosoftAzure" style="width: 160px; height: 95px;">
+        </div>
+    </section>
+    <section id="proyect" class="projects">
+        <h2 class="section-title">Proyectos</h2>
+        <div class="project-grid">
+            <div class="project-item">
+                <div class="project-header">
+                    <img src="icons/attendance.png" alt="Attendance Verification" class="project-icon">
+                    <h3>Aplicación de Verificación de Asistencia</h3>
+                </div>
+                <p class="project-description">
+                    Aplicación web diseñada para verificar si un usuario se ha registrado en un evento. <br>
+                    Valida la asistencia de los participantes en tiempo real. <br>
+                    Interfaz responsiva, optimizada para dispositivos móviles.
+                </p>
+                <div class="technologies-section">
+                    <h4>Tecnologías Utilizadas:</h4>
+                    <ul class="technologies-list">
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>WebSocket</li>
+                    </ul>
+                </div>
+                <a href="https://github.com/tuusuario/tu-repositorio" target="_blank" class="project-link">Ver en GitHub</a>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <img src="icons/uiux.png" alt="UI/UX Design" class="project-icon">
+                    <h3>UI/UX Design</h3>
+                </div>
+                <p class="project-description">Diseño de interfaces intuitivas y usables, adaptadas para mejorar la experiencia del usuario.</p>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <img src="icons/product.png" alt="Product Design" class="project-icon">
+                    <h3>Product Design</h3>
+                </div>
+                <p class="project-description">Creación de productos visualmente atractivos y funcionales, adaptados a las necesidades de los usuarios.</p>
+            </div>
+        </div>
+    </section>
     
+    <section id="contact" class="contact">
+        <div class="contact-info">
+            <h2>UBICACIÓN</h2>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57727.131812353015!2d-80.09190265136715!3d-2.1878713999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e1!3m2!1ses-419!2sec!4v1730241523323!5m2!1ses-419!2sec"
+                    width="100%" height="350" style="border:1;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>CONTACTO</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Nombre *" required>
+                    <input type="text" placeholder="Apellido *" required>
+                </div>
+                <input type="email" placeholder="Email *" required>
+                <input type="text" placeholder="Asunto *" required>
+                <textarea placeholder="Mensaje *" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Elaborado por Luis Romero. Gye, Ecuador 2024</p>
+
+        <div class="footer-info">
+            <div class="footer-item">
+                <strong>Address:</strong>
+                <span>Espol, FIEC </span>
+            </div>
+            <div class="footer-item">
+                <strong>telf:</strong>
+                <span>0982510973</span>
+            </div>
+            <div class="footer-item">
+                <strong>Email:</strong>
+                <span>lfromero@espol.edu.ec</span>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+
+    <script>
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+
+                item.classList.add('active');
+            });
+        });
+    </script>
 </body>
+
 </html>

@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    padding: 20px;
+    background-color: #000;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav-links li {
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.hero-content h3 {
+    color: #ffa500;
+    font-size: 24px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.hero-content p {
+    color: #aaa;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image img {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.hero-image::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 320px;
+    height: 320px;
+    border: 3px solid #ffa500;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+.contact {
+    display: flex;
+    padding: 50px;
+    background-color: #121212;
+    color: #fff;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #1d1d1d;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    margin-bottom: 15px;
+}
+
+.contact-item strong {
+    display: block;
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contact-item span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    padding-left: 10px;
+    background-color: #1d1d1d;
+    border-radius: 0px;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffa500;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #1d1d1d;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #aaa;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #121212;
+    color: #ffa500;
+    border: 1px solid #ffa500;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #ffa500;
+    color: #121212;
+}
+/*Esto es del grid icon*/
+.tools {
+    text-align: center;
+    padding: 50px 0;
+    background-color:#1d1d1d; /* Fondo gris claro */
+}
+
+.tools h1 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(95px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tools-grid img {
+    width: 90px;
+    height: 95px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.tools-grid img:hover {
+    opacity: 1;
+}
+
+/*mapap*/
+.contact-info {
+    background-color: #1d1d1d;
+    color: #fff;
+    padding-left: 20px;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    padding-left: 45px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    color: #ffa500; /* Color de acento */
+    margin-bottom: 20px;
+}
+
+.map-container {
+    max-width: 90%;
+    margin: 0 auto;
+    border: 0px solid #c3c3c3; /* Borde opcional */
+    border-radius: 9px;
+    overflow: hidden; /* Para que el mapa respete el borde redondeado */
+}
+/*footer*/
+.footer {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+
+.footer p {
+    color: #aaa;
+    max-width: 600px;
+    margin: 0 auto 10px;
+    font-size: 14px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.footer-item {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-item strong {
+    color: #ffa500; /* Color de acento */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #ffa500; /* Color de acento */
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+/*CLick Amarillo*/
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-item {
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 5px;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.nav-item:hover,
+.nav-item.active {
+    color: #ffa500; /* Color amarillo al hacer hover o cuando está activo */
+}
+
+.nav-item.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #ffa500; /* Línea amarilla debajo del elemento activo */
+}
+/*enlace*/
+.nav-links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #ffa500; /* Color amarillo al pasar el ratón */
+}
+/*navfijo*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #121212; /* Fondo oscuro */
+    z-index: 1000; /* Para asegurarse de que esté encima de otros elementos */
+    padding: 10px 0;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+body {
+    margin-top: 60px; 
+}
+/*suave*/
+html {
+    scroll-behavior: smooth;
+}
+/*skill bar*/
+.skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    color: #fff;
+    gap: 20px;
+}
+
+.skills-content {
+    max-width: 600px;
+    margin-right: 0;
+}
+
+.skills-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.skills-content h3 {
+    color: #ffa500;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skills-content p {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.skills-bars {
+    max-width: 500px; /* Aumenta el ancho de la columna derecha */
+    margin-left: 0;
+}
+
+.skills-title {
+    font-size: 20px;
+    color: #ffa500;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background-color: #333;
+    height: 5px;
+    width: 100%; /* Asegura que la barra de progreso ocupe el ancho completo de .skills-bars */
+    max-width: 480px; /* Puedes ajustar el valor para controlar la longitud máxima */
+    position: relative;
+}
+
+.progress-bar {
+    background-color: #ffa500;
+    height: 5px;
+    transition: width 0.5s ease-in-out;
+}
+/*proyecto*/
+.projects {
+    padding: 50px;
+    background-color: #121212; /* Fondo oscuro */
+    color: #fff;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffa500; /* Color amarillo */
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ffa500; /* Línea amarilla debajo del título */
+    margin: 8px auto 0;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #1d1d1d; /* Fondo oscuro para cada tarjeta */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-align: left;
+}
+
+.project-item:hover {
+    transform: translateY(-10px); /* Efecto de elevación al pasar el cursor */
+}
+
+.project-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.project-icon:hover {
+    opacity: 1;
+}
+
+.project-item h3 {
+    font-size: 20px;
+    color: #ffa500; /* Color amarillo para el título */
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.project-description {
+    font-size: 14px;
+    color: #aaa; /* Color gris claro para el texto */
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: center; /* Centra el texto de la descripción */
+}
+
+.technologies-section {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    text-align: center; /* Opcional: centra la lista de tecnologías también */
+}
+
+.technologies-section h4 {
+    font-size: 16px;
+    color: #ffa500; /* Color amarillo para "Tecnologías Utilizadas" */
+    margin-bottom: 10px;
+}
+
+.technologies-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* Centra las tecnologías en la tarjeta */
+}
+
+.technologies-list li {
+    font-size: 14px;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ffa500; /* Color amarillo */
+}
+.project-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #ffa500; /* Color amarillo */
+    color: #121212; /* Texto oscuro */
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.project-link:hover {
+    background-color: #fff; /* Color de fondo al pasar el ratón */
+    color: #121212;
+}

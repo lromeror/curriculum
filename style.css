@@ -500,16 +500,85 @@ html {
     gap: 20px;
 }
 
+.project-grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    padding-top: 10px;
+}
+
+.project-item2 {
+    justify-self: right; 
+    background-color: #1d1d1d;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+    width: 66%; 
+    height: 510px;
+
+}
+
+.project-item3 {
+    justify-self: left; 
+    background-color: #1d1d1d;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+    width: 66%; 
+    height: 510px;
+}
+
+@media (max-width: 1900px) {
+    .project-item3,.project-item2 {
+        width: 66%;
+        height: 540px; 
+    }
+}
+@media (max-width: 1500px) {
+    .project-item3,.project-item2 {
+        width: 66%; 
+        height: 650px;
+    }
+}
+@media (max-width: 1024px) {
+    .project-item3,.project-item2 {
+        width: 66%; 
+        height: 700px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .project-item3,.project-item2 {
+        width: 66%; 
+        height: 1020px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .project-item3 {
+        width: 66%;
+        height: 900px; 
+    }
+}
+
 .project-item {
     background-color: #1d1d1d;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden; /* Esto asegura que el contenido respete los bordes redondeados */
+    overflow: hidden; 
     transition: transform 0.3s;
     text-align: center;
 }
 
-.project-item:hover {
+.project-item:hover,
+.project-item2:hover,
+.project-item3:hover {
     transform: translateY(-10px);
 }
 

@@ -224,16 +224,16 @@ header {
     font-size: 24px;
     text-align: left;
     font-weight: bold;
-    color: #ffa500; /* Color de acento */
+    color: #ffa500; 
     margin-bottom: 20px;
 }
 
 .map-container {
     max-width: 90%;
     margin: 0 auto;
-    border: 0px solid #c3c3c3; /* Borde opcional */
+    border: 0px solid #c3c3c3;
     border-radius: 9px;
-    overflow: hidden; /* Para que el mapa respete el borde redondeado */
+    overflow: hidden;
 }
 /*footer*/
 .footer {
@@ -301,7 +301,7 @@ header {
 
 .nav-item:hover,
 .nav-item.active {
-    color: #ffa500; /* Color amarillo al hacer hover o cuando está activo */
+    color: #ffa500; 
 }
 
 .nav-item.active::after {
@@ -311,7 +311,7 @@ header {
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: #ffa500; /* Línea amarilla debajo del elemento activo */
+    background-color: #ffa500;
 }
 /*enlace*/
 .nav-links a {
@@ -320,7 +320,7 @@ header {
 }
 
 .nav-links a:hover {
-    color: #ffa500; /* Color amarillo al pasar el ratón */
+    color: #ffa500;
 }
 /*navfijo*/
 header {
@@ -397,12 +397,12 @@ html {
 }
 @media (max-width: 1068px) {
     .skills-content {
-        margin-left: 30px; /* Reducimos el margen en pantallas pequeñas */
+        margin-left: 30px; 
     }
 }
 @media (max-width: 768px) {
     .skills-content {
-        margin-left: 00px; /* Reducimos el margen en pantallas pequeñas */
+        margin-left: 00px; 
     }
 }
 
@@ -563,7 +563,7 @@ html {
 @media (max-width: 480px) {
     .project-item3 {
         width: 66%;
-        height: 900px; 
+        height: 1080; 
     }
 }
 
@@ -584,7 +584,7 @@ html {
 
 .project-image img {
     width: 100%;
-    height: 225px; /* Ajusta la altura según prefieras */
+    height: 225px; 
     object-fit: cover;
 }
 
@@ -658,12 +658,12 @@ html {
     margin-top: 20px;
     padding-top: 10px;
     border-top: 1px solid #333;
-    text-align: center; /* Opcional: centra la lista de tecnologías también */
+    text-align: center; 
 }
 
 .technologies-section h4 {
     font-size: 16px;
-    color: #ffa500; /* Color amarillo para "Tecnologías Utilizadas" */
+    color: #ffa500; 
     margin-bottom: 10px;
 }
 
@@ -673,7 +673,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center; /* Centra las tecnologías en la tarjeta */
+    justify-content: center;
 }
 
 .technologies-list li {
@@ -681,14 +681,14 @@ html {
     background-color: #333;
     padding: 5px 10px;
     border-radius: 5px;
-    color: #ffa500; /* Color amarillo */
+    color: #ffa500;
 }
 .project-link {
     display: inline-block;
     margin-top: 15px;
     padding: 8px 15px;
-    background-color: #ffa500; /* Color amarillo */
-    color: #121212; /* Texto oscuro */
+    background-color: #ffa500; 
+    color: #121212;
     font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
@@ -697,6 +697,6 @@ html {
 }
 
 .project-link:hover {
-    background-color: #fff; /* Color de fondo al pasar el ratón */
+    background-color: #fff; 
     color: #121212;
 }

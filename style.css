@@ -265,7 +265,7 @@ header {
 }
 
 .footer-item strong {
-    color: #ffa500; /* Color de acento */
+    color: #ffa500;
 }
 
 .social-icons {
@@ -275,7 +275,7 @@ header {
 }
 
 .social-icons a {
-    color: #ffa500; /* Color de acento */
+    color: #ffa500;
     font-size: 24px;
     text-decoration: none;
     transition: color 0.3s;

@@ -807,7 +807,7 @@ html {
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    height: 200px;
+    height: 350px;
     width: 100%;
     
 }
@@ -829,7 +829,6 @@ html {
     padding-right: 40px;
     justify-content: center;
     align-items: center;
-    height: 250px;
     overflow: hidden;
 }
 

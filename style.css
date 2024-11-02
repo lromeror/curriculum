@@ -890,3 +890,48 @@ html {
     background-color: #ffa500; 
     margin: 8px auto 0; 
 }
+
+.experience-section {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #121212;
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas si es necesario */
+}
+
+
+.experience-card {
+    background-color: #1d1d1d;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.experience-date {
+    font-size: 14px;
+    color: #aaa;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-title {
+    font-size: 20px;
+    color: #ffa500;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.experience-company {
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 10px;
+}
+
+.experience-description {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.6;
+}

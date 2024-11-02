@@ -854,15 +854,12 @@ html {
 .social-iconLin {
     width: 25px;
     height: 25px;
-    
     transition: transform 0.3s;
 }
 
 .social-icon:hover {
     transform: scale(1.1);
 }
-
-
 
 .social-icontui {
     width: 26px;
@@ -874,4 +871,22 @@ html {
     width: 26px;
     height: 26px;
     transition: transform 0.3s;
+}
+
+.section-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffa500; 
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 50px; 
+    height: 3px; 
+    background-color: #ffa500; 
+    margin: 8px auto 0; 
 }

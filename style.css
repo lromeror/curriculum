@@ -896,8 +896,8 @@ html {
     gap: 20px;
     padding: 20px;
     background-color: #121212;
-    justify-content: center; /* Centra las tarjetas horizontalmente */
-    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas si es necesario */
+    justify-content: center; 
+    flex-wrap: wrap; 
 }
 
 .experience-card {
@@ -907,12 +907,12 @@ html {
     width: 300px;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega la transición para el efecto */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .experience-card:hover {
-    transform: translateY(-10px); /* Efecto de elevación */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Sombra más intensa al pasar el mouse */
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
 }
 
 .experience-date {

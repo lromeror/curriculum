@@ -900,7 +900,6 @@ html {
     flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas si es necesario */
 }
 
-
 .experience-card {
     background-color: #1d1d1d;
     padding: 20px;
@@ -908,6 +907,12 @@ html {
     width: 300px;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega la transición para el efecto */
+}
+
+.experience-card:hover {
+    transform: translateY(-10px); /* Efecto de elevación */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Sombra más intensa al pasar el mouse */
 }
 
 .experience-date {

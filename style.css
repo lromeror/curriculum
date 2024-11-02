@@ -23,7 +23,7 @@ header {
 }
 
 .nav-links li {
-    color: #fff;
+    color: #ffa500  ;
     cursor: pointer;
 }
 
@@ -43,6 +43,7 @@ header {
     font-size: 50px;
     font-weight: bold;
     margin: 20px 0;
+    margin-bottom: 08px;
 }
 
 .hero-content p {
@@ -838,4 +839,39 @@ html {
     aspect-ratio: 16 / 9;
     max-width: 500px;
     height: 250px; 
+}
+
+.social-icons-row {
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    margin-top: 0px;
+    padding-bottom: 7px;
+    padding-left: 0px;
+
+}
+
+.social-iconLin {
+    width: 25px;
+    height: 25px;
+    
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+
+
+.social-icontui {
+    width: 26px;
+    height: 26px;
+    transition: transform 0.3s;
+}
+
+.social-iconGit {
+    width: 26px;
+    height: 26px;
+    transition: transform 0.3s;
 }

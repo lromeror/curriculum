@@ -425,14 +425,14 @@ html {
 }
 
 .skills-bars {
-    width: 80%; /* Ajusta el ancho según sea necesario, puede ser en % o px */
-    max-width: 500px; /* Ancho máximo para evitar que sea demasiado ancho */
-    padding: 30px; /* Espacio interno */
-    background-color: #1d1d1d; /* Fondo oscuro para distinguir el área */
-    border-radius: 10px; /* Bordes redondeados */
-    margin: 0 auto; /* Centra el div horizontalmente */
-    margin-left: 100px; /* Elimina el margen izquierdo */
-    margin-right: 0px; /* Elimina el margen derecho */
+    width: 80%; 
+    max-width: 500px; 
+    padding: 30px; 
+    background-color: #1d1d1d; 
+    border-radius: 10px; 
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 0px; 
 }
 
 
@@ -459,8 +459,8 @@ html {
 .progress {
     background-color: #333;
     height: 5px;
-    width: 100%; /* Asegura que la barra de progreso ocupe el ancho completo de .skills-bars */
-    max-width: 480px; /* Puedes ajustar el valor para controlar la longitud máxima */
+    width: 100%; 
+    max-width: 480px; 
     position: relative;
 }
 
@@ -472,7 +472,7 @@ html {
 /*proyecto*/
 .projects {
     padding: 50px;
-    background-color: #121212; /* Fondo oscuro */
+    background-color: #121212;
     color: #fff;
     text-align: center;
 }
@@ -480,7 +480,7 @@ html {
 .section-title {
     font-size: 24px;
     font-weight: bold;
-    color: #ffa500; /* Color amarillo */
+    color: #ffa500;
     margin-bottom: 30px;
     position: relative;
 }
@@ -490,7 +490,7 @@ html {
     display: block;
     width: 60px;
     height: 3px;
-    background-color: #ffa500; /* Línea amarilla debajo del título */
+    background-color: #ffa500; 
     margin: 8px auto 0;
 }
 
@@ -761,7 +761,7 @@ html {
     background-color: #1d1d1d;
     padding: 15px;
     border-radius: 8px;
-    width: calc(100% - 170px); /* Ajusta para que el texto ocupe el resto del espacio */
+    width: calc(100% - 170px); 
 }
 
 .experience-details h3 {
@@ -785,7 +785,7 @@ html {
 
 .experience-details li::before {
     content: "•";
-    color: #66cc66; /* Verde suave para el bullet */
+    color: #66cc66;
     position: absolute;
     left: -20px;
 }
@@ -802,7 +802,7 @@ html {
 
 
 .video-section {
-    margin-top: 00px; /* Añade un pequeño margen superior para separar del contenido de habilidades */
+    margin-top: 00px; 
     background-color: #1d1d1d;
     padding: 15px;
     border-radius: 10px;
@@ -822,7 +822,7 @@ html {
 
 .video-container {
     width: 100%;
-    max-width: 100%; /* Se ajusta al ancho total disponible */
+    max-width: 100%; 
     background-color: #1d1d1d;
     display: flex;
     padding-left: 40px;
@@ -836,6 +836,6 @@ html {
    
     border-radius: 10px;
     aspect-ratio: 16 / 9;
-    max-width: 500px; /* Controla el ancho máximo del iframe para que no se desborde */
-    height: 250px; /* Altura que se ajusta a la relación de aspecto 16:9 */
+    max-width: 500px;
+    height: 250px; 
 }
